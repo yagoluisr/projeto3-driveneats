@@ -1,0 +1,122 @@
+
+        
+        @media (max-width: 600px){
+        * {
+            box-sizing:border-box;
+        }
+
+        body {
+            width: 614px;
+            background-color: #EEEEEE;
+            font-family: 'Roboto', sans-serif;
+        }
+
+
+        .topo{
+            height: 92px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #CF2B2B;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        .topo span{
+            font-size: 44px;
+            color: #FFFFFF;
+            margin-left: 21px;
+            font-family: 'Righteous', cursive;
+        }
+
+        .topo p {
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 21px;
+            margin-top: 5px;
+            color: #FFFFFF;
+        }
+
+        .conteudo {
+            margin-top: 123px;
+        }
+
+        .prato {
+            height: 258px;
+            width: 100%;
+            
+        }
+
+        .prato div {
+            display: flex;
+        }
+
+        .prato span {
+            font-size: 26px;
+            font-weight: 400;
+            margin-left: 19px;
+            color: #333333;
+            font-family: 'Righteous', cursive;
+        }
+
+        .catalogo {
+            height: 216px;
+            width: 100%;
+            margin: 10px 0;
+            overflow: hidden;
+            overflow-x: scroll;
+        }
+
+
+        .opcao {
+            display: flex;
+            flex-direction: column;
+            height: 216px;
+            width: 172px;
+            margin: 0 16px;
+            border-radius: 9px;
+            padding: 15px 15px;
+            background-color: #FFFFFF;
+            
+        }
+
+        .opcao img {
+            height: 87px;
+            width: 144px;
+            border-radius: 4px;
+        }
+
+        .bebida div {
+            display: flex;
+            height: 150px;
+            width: 100px;
+            background-color: green;
+        }
+
+        .sobremesa div {
+            display: flex;
+            height: 150px;
+            width: 100px;
+            background-color: yellow;
+        }
+
+        .botao {
+            height: 50px;
+            width: 600px;
+            display: flex;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
+
+        .botao div {
+            height: 35px;
+            width: 200px;
+            background-color: #CBCBCB;
+            border-radius: 50px;
+        }
+
+    }
