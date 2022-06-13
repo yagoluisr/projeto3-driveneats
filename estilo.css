@@ -156,18 +156,22 @@
             width: 364px;
             background-color: #CBCBCB;
             border-radius: 50px;
-        }
-
-        .botao p{
-            
             font-size: 20px;
             font-weight: 400;
+
+            display: flex;
+            align-items: center;
             text-align: center;
-            color: #FFFFFF;
+            color: #FFFFFF;   
         }
 
-        .fechar-pedido {
-            
+        .botao-pedido {
+            height: 61px;
+            width: 364px;
+            font-weight: 700;
+            background-color: #32B72F;
+            border-radius: 50px;
+            justify-content: center;
         }
 
         
